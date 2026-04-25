@@ -210,7 +210,44 @@ export default function Home() {
             Proyectos
           </p>
           <h2 className="text-3xl font-bold">Lo que he construido</h2>
-          <div className="mt-8">
+          <div className="mt-8 space-y-6">
+            <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:border-zinc-600">
+              <h3 className="text-xl font-bold">FPL Assistant</h3>
+              <p className="mt-2 text-zinc-400 leading-relaxed">
+                Asistente inteligente para la Fantasy Premier League. Ayuda a
+                tomar decisiones sobre fichajes, alineaciones y estrategia
+                basándose en datos actualizados de la competición.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {["Next.js", "React", "TypeScript", "Tailwind CSS"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="mt-6 flex gap-3">
+                <a
+                  href="https://fplagent.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full bg-white px-5 py-2 text-sm font-semibold text-zinc-950 transition hover:bg-zinc-200"
+                >
+                  Ver demo
+                </a>
+                <a
+                  href="https://github.com/schmaika/fplagent"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full border border-zinc-700 px-5 py-2 text-sm font-semibold text-white transition hover:border-zinc-400"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+
             <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:border-zinc-600">
               <h3 className="text-xl font-bold">Coro Coro Collection</h3>
               <p className="mt-2 text-zinc-400 leading-relaxed">
