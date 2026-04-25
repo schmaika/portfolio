@@ -316,7 +316,7 @@ export default function Home() {
               GitHub
             </a>
             <a
-              href="https://www.linkedin.com/in/miguel-berges-buxeda-823b69271/"
+              href="https://www.linkedin.com/in/mikeberges/"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full border border-zinc-700 px-6 py-3 text-sm font-semibold text-white transition hover:border-emerald-500/50 hover:text-emerald-400 text-center"
