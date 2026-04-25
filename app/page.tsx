@@ -57,7 +57,7 @@ export default function Home() {
           Mike Berges
         </h1>
         <p className="mt-4 text-xl text-zinc-400 sm:text-2xl">
-          Programador en formación
+          Desarrollador de Software
         </p>
         <p className="mt-6 max-w-md text-zinc-500">
           Perfil técnico-creativo con ganas de aprender en un entorno profesional.
@@ -94,7 +94,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold">¿Quién soy?</h2>
           <div className="mt-8 space-y-4 text-zinc-400 leading-relaxed">
             <p>
-              Programador en formación en{" "}
+              Desarrollador de Software en{" "}
               <span className="text-white font-medium">
                 Desarrollo de Aplicaciones Multiplataforma (DAM)
               </span>
